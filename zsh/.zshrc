@@ -30,4 +30,7 @@ source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # tools
 eval "$(zoxide init zsh)"
+
+source /usr/share/doc/fzf/examples/key-bindings.zsh
+source /usr/share/doc/fzf/examples/completion.zsh
 [[ -f ~/.fzf.zsh ]] && source ~/.fzf.zsh
